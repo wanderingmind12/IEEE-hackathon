@@ -1,4 +1,4 @@
-<h1>IEEE Hackathon</h1>
+<h1>Team Byte Boffins</h1>
 <h2>Team Members</h2>
 <ul>
   <li>Devansh Aggarwal</li>

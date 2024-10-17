@@ -1,0 +1,73 @@
+{
+  "Header": {
+    "title": "PDFmate.AI",
+    "paragraph": "PDFmate.AI is your personalized AI research assistant powered by Llama 3.1, one of the most advanced models available."
+  },
+  "About": {
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Why": [
+      "Lorem ipsum dolor",
+      "Tempor incididunt",
+      "Lorem ipsum dolor",
+      "Incididunt ut labore"
+    ],
+    "Why2": [
+      "Aliquip ex ea commodo",
+      "Lorem ipsum dolor",
+      "Exercitation ullamco",
+      "Lorem ipsum dolor"
+    ]
+  },
+    "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "Devansh Aggarwal"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Pranav Malhotra"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Nishtha Mehta"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Bhavansh Singla"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Saksham Gupta"
+    }
+  ],
+  "Contact": {
+    "address": "Punjab Engineering College, Chandigarh ",
+    "phone": "+91 123 456 1234",
+    "email": "PDFmate@contact.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Seamless PDF Ingestion",
+      "text": "Effortlessly upload and extract content from PDFs while preserving their structure and context."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Smart Question Suggestion Engine",
+      "text": "Discover insightful questions generated automatically to guide your exploration of the document."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Natural Language Query Interface",
+      "text": "Ask questions in plain language and receive precise, context-aware answers from your PDFs."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Citation and Validation Mechanism",
+      "text": "Ensure accuracy with clear citations that trace responses back to specific sections of your documents."
+    }
+  ]
+}

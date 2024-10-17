@@ -13,12 +13,33 @@ export const PDF = () => {
     }
   };
 
-  // Function to handle form submission or further processing
-  const handleSubmit = (event) => {
+  // Function to handle form submission and sending the file to the backend
+  const handleSubmit = async (event) => {
     event.preventDefault();
     if (selectedFile) {
-      console.log("PDF file selected:", selectedFile);
-      // You can now process the PDF file here
+      const formData = new FormData();
+      formData.append("file", selectedFile);  // Attach the selected PDF file
+
+      try {
+        // Send POST request to the backend
+        const response = await fetch("http://localhost:5000/upload", {
+          method: "POST",
+          body: formData,
+        });
+
+        const data = await response.json();
+        console.log("Response from server:", data);
+
+        if (response.ok) {
+          alert("PDF uploaded successfully!");
+          console.log("Summary:", data.summary); // You can process/display the summary
+        } else {
+          alert("Error uploading PDF");
+        }
+      } catch (error) {
+        console.error("Error uploading file:", error);
+        alert("There was an error uploading the PDF.");
+      }
     } else {
       alert("Please select a PDF file to upload.");
     }
